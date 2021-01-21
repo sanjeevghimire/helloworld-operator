@@ -1,0 +1,13 @@
+domain: ibm.com
+layout: go.kubebuilder.io/v3
+projectName: helloworld-operator
+repo: helloworld-operator
+resources:
+- crdVersion: v1
+  group: apps
+  kind: Traveller
+  version: v1alpha1
+version: 3-alpha
+plugins:
+  manifests.sdk.operatorframework.io/v2: {}
+  scorecard.sdk.operatorframework.io/v2: {}

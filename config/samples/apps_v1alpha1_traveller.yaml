@@ -1,0 +1,8 @@
+apiVersion: apps.ibm.com/v1alpha1
+kind: Traveller
+metadata:
+  name: traveller-sample
+spec:
+  # Add fields here
+  size: 3
+  image: paulbouwer/hello-kubernetes:1.8
